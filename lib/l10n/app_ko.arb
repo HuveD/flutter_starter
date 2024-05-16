@@ -1,0 +1,50 @@
+{
+  "app_name": "flutter_starter",
+  "@app_name": {
+    "description": "앱 이름"
+  },
+  "menu_tomorrow_me": "내일의 나에게",
+  "@menu_tomorrow_me": {
+    "description": "내일 나에게 채팅 전송 메뉴"
+  },
+  "menu_memo": "메모장",
+  "@menu_memo": {
+    "description": "메모장 메뉴"
+  },
+  "preparing_feature": "준비 중인 기능입니다.",
+  "@preparing_feature": {
+    "description": "출시 예정 기능 안내"
+  },
+  "tomorrow_me_tip": "내일의 나에게 메시지를 보내 보세요.\n내일 이 시간에 알림으로 메시지를 받을 수 있습니다.",
+  "@tomorrow_me_tip": {
+    "description": "내일의 나에게 전달하는 메세지 툴팁 안내"
+  },
+  "notepad_tip": "기억해야 할 내용을 메모해 보세요.\n메모장에 적은 말은 알림으로 오지 않아요.",
+  "@notepad_tip": {
+    "description": "개인 메모장 툴팁 안내"
+  },
+  "menu_note_date_format": "d일 - EEEE",
+  "@menu_note_date_format": {
+    "description": "메인 메뉴 노트 날짜 표시 방식. ex: 02일 - 수요일"
+  },
+  "notification_channel_general": "일반",
+  "@notification_channel_general": {
+    "description": "안드로이드 알림 채널 - 일반"
+  },
+  "notification_channel_scheduled_message": "예약 메세지",
+  "@notification_channel_scheduled_message": {
+    "description": "안드로이드 알림 채널 - 예약 메세지"
+  },
+  "push_title_from_yesterday": "✉\uFE0F 어제의 나로부터",
+  "@push_title_from_yesterday": {
+    "description": "어제의 나로부터 푸시 알림 타이틀"
+  },
+  "push_text_from_yesterday": "새로운 메시지가 있습니다.",
+  "@push_text_from_yesterday": {
+    "description": "어제의 나로부터 푸시 알림 내용"
+  },
+  "opensource_license": "오픈소스 라이선스",
+  "@opensource_license": {
+    "description": "오픈소스 라이선스"
+  }
+}

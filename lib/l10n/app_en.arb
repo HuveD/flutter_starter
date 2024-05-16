@@ -1,0 +1,14 @@
+{
+  "app_name": "flutter_starter",
+  "menu_tomorrow_me": "Tomorrow's Me",
+  "menu_memo": "Notepad",
+  "preparing_feature": "This feature is in development.",
+  "tomorrow_me_tip": "Send a message to yourself for tomorrow.\nYou will receive the message as a notification at this same time tomorrow.",
+  "notepad_tip": "Write down things you need to remember.\nNotes written in the notepad will not be sent as notifications.",
+  "menu_note_date_format": "EEEE, d",
+  "notification_channel_general": "General",
+  "notification_channel_scheduled_message": "Scheduled Message",
+  "push_title_from_yesterday": "✉\uFE0F From Yesterday's Me",
+  "push_text_from_yesterday": "You have a new message.",
+  "opensource_license": "Open Source License"
+}

@@ -5,10 +5,9 @@ pluginManagement {
         def flutterSdkPath = properties.getProperty("flutter.sdk")
         assert flutterSdkPath != null, "flutter.sdk not set in local.properties"
         return flutterSdkPath
-    }
-    settings.ext.flutterSdkPath = flutterSdkPath()
+    }()
 
-    includeBuild("${settings.ext.flutterSdkPath}/packages/flutter_tools/gradle")
+    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
 
     repositories {
         google()
@@ -19,6 +18,7 @@ pluginManagement {
 
 plugins {
     id "dev.flutter.flutter-plugin-loader" version "1.0.0"
+    // Android Firebase 버전 충돌로 AGP 7.3 이하 or 8.0 이상에서만 빌드 가능
     id "com.android.application" version "7.3.0" apply false
     id "org.jetbrains.kotlin.android" version "1.7.10" apply false
 }
